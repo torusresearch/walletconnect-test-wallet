@@ -43,7 +43,7 @@ const AccountDetails = (props: IAccountDetailsProps) => {
     windowWidth > maxWidth ? maxChar : Math.floor(windowWidth * (maxChar / maxWidth));
   const accountsMap = accounts.map((addr: string, index: number) => ({
     index,
-    display_address: ellipseAddress(addr, ellipseLength),
+    display_address: addr,
   }));
   return (
     <React.Fragment>
