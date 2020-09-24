@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Dropdown from "../components/Dropdown";
 import { IChainData } from "../helpers/types";
-import { ellipseAddress, getViewportDimensions } from "../helpers/utilities";
+// import { ellipseAddress, getViewportDimensions } from "../helpers/utilities";
 import { responsive } from "../styles";
 import Blockie from "./Blockie";
 
